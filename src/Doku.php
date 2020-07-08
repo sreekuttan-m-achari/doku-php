@@ -12,10 +12,10 @@ class Doku
     public static $isProduction = false;
 
     //local
-    const sandboxPrePaymentUrl = 'http://staging.doku.com/api/payment/PrePayment';
-    const sandboxPaymentUrl = 'http://staging.doku.com/api/payment/paymentMip';
-    const sandboxDirectPaymentUrl = 'http://staging.doku.com/api/payment/PaymentMIPDirect';
-    const sandboxGenerateCodeUrl = 'http://staging.doku.com/api/payment/doGeneratePaymentCode';
+    const sandboxPrePaymentUrl = 'https://staging.doku.com/api/payment/PrePayment';
+    const sandboxPaymentUrl = 'https://staging.doku.com/api/payment/paymentMip';
+    const sandboxDirectPaymentUrl = 'https://staging.doku.com/api/payment/PaymentMIPDirect';
+    const sandboxGenerateCodeUrl = 'https://staging.doku.com/api/payment/doGeneratePaymentCode';
 
     //production
     const prePaymentUrl = 'https://pay.doku.com/api/payment/PrePayment';
