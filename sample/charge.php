@@ -1,5 +1,4 @@
 <?php
-<?php
 require __DIR__ . '/vendor/autoload.php';
 
 use Otezz\Doku\Api;
@@ -10,7 +9,6 @@ Doku::$sharedKey = "sharedKey";
 Doku::$mallId = "mallId";
 
 $payment_env = Doku::$isProduction ? 'production' : 'staging';
-
 
 $token = $_POST['doku_token'];
 $pairing_code = $_POST['doku_pairing_code'];
